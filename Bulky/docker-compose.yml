@@ -1,0 +1,11 @@
+services:
+  buybooksdb:
+    container_name: app-db
+  buybooksweb:
+    container_name: buy-books-app
+    image: ${DOCKER_REGISTRY-}buybooksweb
+    build:
+      context: .
+      dockerfile: BulkyWeb/Dockerfile
+    ports:
+     - 8001:8080

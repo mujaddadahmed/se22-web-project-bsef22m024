@@ -1,0 +1,12 @@
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.deps.json
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.dll
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.pdb
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.csproj.AssemblyReference.cache
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.AssemblyInfoInputs.cache
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.AssemblyInfo.cs
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.dll
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\refint\BulkyBook.Models.dll
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.pdb
+D:\ASP.NET-Core-MVC-NET-8-main\ASP.NET-Core-MVC-NET-8-main\Bulky\Bulky.Models\obj\Debug\net8.0\ref\BulkyBook.Models.dll

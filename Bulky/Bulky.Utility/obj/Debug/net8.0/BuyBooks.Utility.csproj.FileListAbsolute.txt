@@ -1,0 +1,12 @@
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\bin\Debug\net8.0\BuyBooks.Utility.deps.json
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\bin\Debug\net8.0\BuyBooks.Utility.dll
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\bin\Debug\net8.0\BuyBooks.Utility.pdb
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.csproj.AssemblyReference.cache
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.AssemblyInfoInputs.cache
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.AssemblyInfo.cs
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.csproj.CoreCompileInputs.cache
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.dll
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\BuyBooks.Utility.dll
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\BuyBooks.Utility.pdb
+C:\Users\mg\source\repos\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\BuyBooks.Utility.dll

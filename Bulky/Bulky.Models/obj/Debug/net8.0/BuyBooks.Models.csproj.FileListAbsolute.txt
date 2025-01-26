@@ -1,0 +1,12 @@
+C:\Users\mg\source\repos\Bulky\Bulky.Models\bin\Debug\net8.0\BuyBooks.Models.deps.json
+C:\Users\mg\source\repos\Bulky\Bulky.Models\bin\Debug\net8.0\BuyBooks.Models.dll
+C:\Users\mg\source\repos\Bulky\Bulky.Models\bin\Debug\net8.0\BuyBooks.Models.pdb
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.csproj.AssemblyReference.cache
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.AssemblyInfoInputs.cache
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.AssemblyInfo.cs
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.csproj.CoreCompileInputs.cache
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.dll
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\refint\BuyBooks.Models.dll
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\BuyBooks.Models.pdb
+C:\Users\mg\source\repos\Bulky\Bulky.Models\obj\Debug\net8.0\ref\BuyBooks.Models.dll

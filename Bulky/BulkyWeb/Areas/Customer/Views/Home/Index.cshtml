@@ -1,0 +1,123 @@
+﻿@model IEnumerable<Product>
+
+<div class="container mt-4">
+    <!-- Page Heading -->
+    <h1 class="text-center mb-4 text-info">Welcome To the Best Book Catalog All across the Web</h1>
+    <h3 class="text-center mb-4">Search and Select Your Favorite Books</h3>
+
+    <!-- Search Box -->
+    <div class="row mb-4">
+        <div class="col-md-6 offset-md-3">
+            <input type="text"
+                   id="searchInput"
+                   class="form-control"
+                   placeholder="Search products by title or author..." />
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading" class="text-center" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div id="productGrid" class="row pb-3">
+        @foreach (var product in Model)
+
+        {
+            <div class="col-lg-3 col-sm-6">
+                <div class="row p-2">
+                    <div class="col-12 p-1">
+                        <div class="card border-0 p-3 shadow border-top border-5 rounded">
+                            <!-- Product Image -->
+                            @if (product.ProductImages != null && product.ProductImages.Count() > 0)
+
+                            {
+                                <img src="@product.ProductImages.FirstOrDefault().ImageUrl" class="card-img-top rounded" />
+                            }
+
+                            else
+
+                            {
+                                <img src="https://placehold.co/500x600/png" class="card-img-top rounded" />
+                            }
+
+                            <!-- Product Details -->
+                            <div class="card-body pb-0">
+                                <div class="pl-1">
+                                    <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">
+                                        @product.Title
+                                    </p>
+                                    <p class="card-title text-warning text-center">
+                                        by <b>@product.Author</b>
+                                    </p>
+                                </div>
+                                <div class="pl-1">
+                                    <p class="text-dark text-opacity-75 text-center mb-0">
+                                        List Price:
+                                        <span class="text-decoration-line-through">
+                                            @product.ListPrice.ToString("c")
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="pl-1">
+                                    <p class="text-dark text-opacity-75 text-center">
+                                        As low as:
+                                        <span>
+                                            @product.Price100.ToString("c")
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Details Button -->
+                            <div>
+                                <a asp-action="Details"
+                                   asp-route-productId="@product.Id"
+                                   class="btn btn-primary bg-gradient border-0 form-control">
+                                    Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Search functionality with AJAX
+            $("#searchInput").on("input", function () {
+                var searchTerm = $(this).val().trim();
+
+                // Show loading spinner
+                $("#loading").show();
+
+                // AJAX request to fetch filtered products
+                $.ajax({
+                    url: '/Customer/Home/Search',
+                    type: 'GET',
+                    data: { searchTerm: searchTerm },
+                    success: function (html) {
+                        // Update product grid with filtered results
+                        $("#productGrid").html(html);
+
+                        // Hide loading spinner
+                        $("#loading").hide();
+                    },
+                    error: function (error) {
+                        console.error("Error fetching search results:", error);
+
+                        // Hide loading spinner
+                        $("#loading").hide();
+                    }
+                });
+            });
+        });
+    </script>
+}
